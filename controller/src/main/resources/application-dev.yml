@@ -1,0 +1,13 @@
+server:
+  port: 8088
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/community?useUnicode=true&characterEncoding=UTF-8&autoReconnect=TRUE&useSSL=FALSE&serverTimezone=GMT
+    password: 12345678
+
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
